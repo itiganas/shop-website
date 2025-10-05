@@ -1,0 +1,14 @@
+[
+  {
+    "id": 1,
+    "name": "Linen Tote Bag - Natural",
+    "price": 25.00,
+    "image": "images/tote1.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Hand-sewn Table Runner - Beige",
+    "price": 45.00,
+    "image": "images/runner1.jpg"
+  }
+]

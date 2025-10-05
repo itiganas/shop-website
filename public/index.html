@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Handmade Shop</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+<h1 class="brand">Your Brand</h1>
+<button id="cart-toggle">Cart (<span id="cart-count">0</span>)</button>
+</header>
+
+
+<main id="product-list"></main>
+
+
+<aside id="cart" class="hidden">
+<h2>Cart</h2>
+<ul id="cart-items"></ul>
+<div>Total: €<span id="cart-total">0.00</span></div>
+<button id="checkout">Checkout</button>
+</aside>
+
+
+<script type="module" src="app.js"></script>
+</body>
+</html>
