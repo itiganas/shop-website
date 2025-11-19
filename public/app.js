@@ -37,6 +37,7 @@ function renderProducts(){
     card.innerHTML = `
       <img src="${p.image}" alt="${p.name}">
       <h3>${p.name}</h3>
+      <p>Inna</p>
       <p class="price">€${p.price.toFixed(2)}</p>
       <button data-id="${p.id}" class="add">Add to cart</button>
     `;

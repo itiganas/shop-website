@@ -10,5 +10,36 @@
     "name": "Hand-sewn Table Runner - Beige",
     "price": 45.00,
     "image": "images/runner1.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Hand-sewn Table Runner - Blue",
+    "price":25.00,
+    "image":"images/tote1.jpg"
+  }
+  ,
+  {
+    "id": 4,
+    "name": "Hand-sewn Table Runner - Blue",
+    "price":25.00,
+    "image":"images/tote1.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Hand-sewn Table Runner - Blue",
+    "price":25.00,
+    "image":"images/tote1.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Hand-sewn Table Runner - Blue",
+    "price":25.00,
+    "image":"images/tote1.jpg"
+  },
+  {
+    "id": 7,
+    "name": "Hand-sewn Table Runner - Blue",
+    "price":25.00,
+    "image":"images/tote1.jpg"
   }
 ]

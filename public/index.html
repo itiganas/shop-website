@@ -1,29 +1,36 @@
 <!doctype html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Handmade Shop</title>
-<link rel="stylesheet" href="style.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Handmade Shop</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<header>
-<h1 class="brand">Your Brand</h1>
-<button id="cart-toggle">Cart (<span id="cart-count">0</span>)</button>
-</header>
+<body>
+  <header>
+    <img class="brand-logo" src="images/brand_name_1.png" alt="Brand Logo">
+    <button id="cart-toggle">Cart (<span id="cart-count">0</span>)</button>
+  </header>
 
+  <!-- Hero section covering header + until products -->
+  <section class="hero">
+    <div class="hero-content">
+      <h1>Welcome to My Handmade Shop</h1>
+      <a href="#product-list"><button class="shop-now">Shop Now</button></a>
+    </div>
+  </section>
 
-<main id="product-list"></main>
+  <!-- Product list section -->
+  <section id="product-list"></section>
 
+  <aside id="cart" class="hidden">
+    <h2>Your Cart</h2>
+    <ul id="cart-items"></ul>
+    <div>Total: €<span id="cart-total">0.00</span></div>
+    <button id="checkout">Checkout</button>
+  </aside>
 
-<aside id="cart" class="hidden">
-<h2>Cart</h2>
-<ul id="cart-items"></ul>
-<div>Total: €<span id="cart-total">0.00</span></div>
-<button id="checkout">Checkout</button>
-</aside>
-
-
-<script type="module" src="app.js"></script>
+  <script type="module" src="app.js"></script>
 </body>
 </html>
